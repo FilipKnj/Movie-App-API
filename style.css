@@ -32,6 +32,11 @@ body {
   padding: 2rem;
   border-radius: 1rem;
 }
+.main-container h3 {
+  text-align: center;
+  margin: 1rem 0;
+  color: #595959;
+}
 
 .search-div {
   width: 100%;

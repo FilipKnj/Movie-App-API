@@ -10,15 +10,7 @@ const getMovie = () => {
         result.innerHTML = `<h3>Enter Movie Name</h3>`
     }else{
         fetch(url).then(res => res.json()).then(data => {
-            console.log(data);
-            console.log(data.Poster);
-            console.log(data.Title);
-            console.log(data.imdbRating);
-            console.log(data.Rated);
-            console.log(data.Year);
-            console.log(data.Runtime);
-            console.log(data.Plot);
-            console.log(data.Actors);
+
             result.innerHTML =`
             <div class="movie-stats">
                 <div class="movie-img">
